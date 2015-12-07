@@ -1,0 +1,109 @@
+<html>
+   <head>
+	  <meta charset="utf-8">
+	  <title>Youtube</title>
+	  <link rel="stylesheet" href="assets/stylesheets/main.css">
+   </head>
+   <body>
+      <!-- header -->
+      <header id="fx-header">
+         <div class="logo-container">
+		  <span class="logo"><img src="assets/images/logo.jpg" height="30" width="72"></span>
+		  <span class="religion">IN</span>
+		  <span><img src="assets/images/menu.jpg" height="30" width="40"></span>
+         </div>
+         
+         <input id="text" type="text">
+         <span id="search-bt"><img src="assets/images/search.jpg" width="20" ></span>
+
+         <span class= "hright" id="upload"> Upload</span>
+         <span class="hright" id="signin"> Sign-in </span>
+
+      </header>
+      
+      <!-- main-content --->
+       <section id="container" class="group">
+
+	       <section id="cleft">
+ 
+		       <section id="video">
+		         <iframe src="https://www.youtube.com/watch?v=xLh5YaBuARw" width="640" height="390"> </iframe>
+		       </section>
+		     
+		       <section id="video-info" class="bg"> 
+                         <h2>Rajarsi Janakananda (James J. Lynn)</h2>
+                          <img src="assets/images/video-info.jpg" width="630">
+		       </section>
+
+		       <section id="details" class="bg">
+                           <strong>Uploaded on Jun 9, 2011</strong>
+                           <p><a href="#">http://www.yoganandabooks.blogspot.com/</a></p>
+                           <br>
+                           
+                           <p>Rajarsi Janakananda (James J. Lynn) Biography - <a href="#">http://www.amazon.com/gp/product/0876...</a><p>
+                           
+
+                           <p class="line"> SHOW MORE </p>
+		       </section>
+       
+		       <section id="comments" class="bg">
+                            <p><strong> all comments</strong>(22) </p>
+                            <div class="box"><span style="font-size: 13px; color: #aaa; text-align: left">share your thoughts</span></div>
+                            <button> 
+                               <span style="color: #333; font-size: 11px; font-weight: bold">Top comments </span>
+                               <span class="down-arrow"></span>
+                             </button>
+                             <img src="assets/images/comments.jpg">
+		       </section>
+
+	       </section> <!-- cleft -->
+
+	       <section id="cright" class="bg">
+ 
+		       <section id="lists">
+                            <img src="assets/images/sidebar_images.jpg">
+                            <img src="assets/images/sidebar_images.jpg">
+		       </section>
+
+	       </section> <!-- cright -->
+       </section> <!-- container -->
+      <!-- footer -->
+      <footer>
+      <ul>
+         <li><img src="assets/images/logo.jpg" height="30" width="72"></li>
+         <li><button> <span style="color: #333; font-size: 11px; font-weight: bold">Language: English</span>
+                               <span class="down-arrow"></span>
+                             </button></li>
+            
+         <li><button> <span style="color: #333; font-size: 11px; font-weight: bold">Country: India</span>
+                               <span class="down-arrow"></span>
+                             </button></li>
+       
+         <li><button> <span style="color: #333; font-size: 11px; font-weight: bold">Restricted: mode</span>
+                               <span class="down-arrow"></span>
+                             </button></li>
+        </ul>
+
+        <ul id="sec-list">
+           <li>About</li>
+           <li>Press</li>
+	   <li>Copyright</li>
+	   <li>Creators</li>
+	   <li>Advertise</li>
+	   <li>Developers</li>
+	   <li>+Youtube</li>
+
+        </ul>
+        <ul id="third-list">
+           <li><a href="#">Terms</a></li>
+	   <li><a href="#">Privacy</a></li>
+	   <li><a href="#">Policy & Safety</a></li>
+	   <li><a href="#">Send feedback</a></li>
+	   <li><a href="#">Try Something New</a></li>
+	   
+        </ul>
+
+                            
+      </footer>
+   </body>
+</html>
